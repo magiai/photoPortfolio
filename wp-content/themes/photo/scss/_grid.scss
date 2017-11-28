@@ -30,7 +30,7 @@ $gutter: 1px;
     @for $i from 1 through $divSize {
         .box-#{$i}-#{$divSize} {
             width: ((70 / $divSize * $i)-(1*$i)) * 1vw;
-            height: ((70 / $divSize * $i)-(0.5*$i)) * 1vh;
+            height: ((90 / $divSize * $i)-(1*$i)) * 1vh;
         }
     }
 
@@ -44,4 +44,9 @@ $gutter: 1px;
         margin-bottom: 0px;
         box-sizing: border-box;
     }
+
+    //.box-2-8 {
+    //    width: 60vw;
+    //    height: 85vh;
+    //}
 

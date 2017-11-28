@@ -19,7 +19,7 @@
                         <div class="frame box-5-8 fifth">
                             <div class="frame box-6-8 sixth">
                                 <div class="frame box-7-8 seventh">
-                                    <div class="frame box-8-8 eighth">
+                                    <div class="box-8-8 eighth">
 
                                     </div>
                                 </div>
