@@ -1,0 +1,21 @@
+@import "grid";
+
+*{
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Miriam Libre', sans-serif;;
+}
+
+.container {
+  margin-top: 5vh;
+}
+.frame {
+  border: 1px solid black;
+
+}
+
+.box-1-8 {
+  width: 65vw;
+  height: 90vh;
+}

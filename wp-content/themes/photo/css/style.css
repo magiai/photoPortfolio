@@ -1,0 +1,3 @@
+*{box-sizing:border-box}.container{margin:.5px}.box-1-8{width:7.75vw;height:8.25vh}.box-2-8{width:15.5vw;height:16.5vh}.box-3-8{width:23.25vw;height:24.75vh}.box-4-8{width:31vw;height:33vh}.box-5-8{width:38.75vw;height:41.25vh}.box-6-8{width:46.5vw;height:49.5vh}.box-7-8{width:54.25vw;height:57.75vh}.box-8-8{width:62vw;height:66vh}[class*="box-"]{display:flex;justify-content:center;align-items:center;padding-left:1px;padding-right:1px;margin-bottom:0px;box-sizing:border-box}*{margin:0px auto;padding:0px;box-sizing:border-box;font-family:'Miriam Libre', sans-serif}.container{margin-top:5vh}.frame{border:1px solid black}.box-1-8{width:65vw;height:90vh}
+
+/*# sourceMappingURL=style.css.map */

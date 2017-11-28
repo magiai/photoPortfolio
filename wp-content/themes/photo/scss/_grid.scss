@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+//------------------
+//grid
+//------------------
+$divSize: 8;
+$gutter: 1px;
+
+.container {
+    margin: $gutter / 2;
+}
+//.row {
+//    [class*="col-"] {
+//        margin-bottom: $gutter * 2;
+//    }
+//}
+//@media only screen and (min-width:768px) {
+//
+////.row {
+////    margin-bottom: $gutter*2;
+////    margin-left: -$gutter;
+////    margin-right: -$gutter;
+////
+////    &:after {
+////        content: "";
+////        display: table;
+////        clear: both;
+//    }
+    @for $i from 1 through $divSize {
+        .box-#{$i}-#{$divSize} {
+            width: ((70 / $divSize * $i)-(1*$i)) * 1vw;
+            height: ((70 / $divSize * $i)-(0.5*$i)) * 1vh;
+        }
+    }
+
+    [class*="box-"] {
+        //^ - zaczyna się od
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: $gutter;
+        padding-right: $gutter;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
