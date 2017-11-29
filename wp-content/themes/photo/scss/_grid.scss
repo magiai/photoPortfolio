@@ -27,19 +27,19 @@ $gutter: 1px;
 ////        display: table;
 ////        clear: both;
 //    }
-    @for $i from 1 through $divSize {
+    @for $i from 1 throught $divSize {
         .box-#{$i}-#{$divSize} {
             width: ((70 / $divSize * $i)-(1*$i)) * 1vw;
             height: ((90 / $divSize * $i)-(0.7*$i)) * 1vh;
         }
     }
 
-@for $i from 1 to $divSize {
+@for $i from 1 throught $divSize {
     .box-#{$i}-#{$divSize} {
-        z-index: $i;
-
+        z-index: $i*(-1);
+        }
     }
-}
+
 //
 //@for $i from 2 to $divSize {
 //    @if($i==2 && $i==6){

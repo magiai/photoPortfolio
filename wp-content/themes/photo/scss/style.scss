@@ -15,6 +15,9 @@ body {
   margin-top: 5vh;
   display: flex;
   flex-direction: row;
+  .frame:hover {
+    box-shadow: -5px -5px black;
+  }
 }
 
 .aboutBox {
@@ -40,7 +43,7 @@ body {
 
 }
 .contactText {
-   font-size: 30px;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,18 +52,20 @@ body {
 .frame {
   border: 3px solid blueviolet;
   //box-shadow: 5px 5px black;
-  box-shadow: -5px -5px black;
+  //box-shadow: -5px -5px black;
 }
 
-.box-1-9 {
+.box-9-9 {
   width: 62vw;
   height: 90vh;
 }
 
-.box-8-9 {
-  z-index: 0;
-}
-
+  .gallery1BG {
+    background-image: url("../images/gallery1/1.jpg");
+    background-size: contain;
+    height: 100%;
+    width: auto;
+  }
 
 
 
