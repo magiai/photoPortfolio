@@ -4,7 +4,7 @@
 //------------------
 //grid
 //------------------
-$divSize: 8;
+$divSize: 9;
 $gutter: 1px;
 
 .container {
@@ -30,9 +30,32 @@ $gutter: 1px;
     @for $i from 1 through $divSize {
         .box-#{$i}-#{$divSize} {
             width: ((70 / $divSize * $i)-(1*$i)) * 1vw;
-            height: ((90 / $divSize * $i)-(1*$i)) * 1vh;
+            height: ((90 / $divSize * $i)-(0.7*$i)) * 1vh;
         }
     }
+
+@for $i from 1 to $divSize {
+    .box-#{$i}-#{$divSize} {
+        z-index: $i;
+
+    }
+}
+//
+//@for $i from 2 to $divSize {
+//    @if($i==2 && $i==6){
+//    .box-#{$i}-#{$divSize} {
+//        display: flex;
+//        justify-content: center;
+//        align-items: flex-start;
+//    }
+//}
+//}
+
+
+
+
+
+
 
     [class*="box-"] {
         //^ - zaczyna się od

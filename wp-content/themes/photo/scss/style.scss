@@ -7,15 +7,63 @@
   font-family: 'Miriam Libre', sans-serif;;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .container {
   margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
 }
+
+.aboutBox {
+ margin-top: 30vh;
+  margin-left: 7vw;
+  p:hover {
+    font-weight: 900;
+  }
+}
+
+.contactBox {
+  margin-top: 25vh;
+  margin-right: 8vw;
+  p:hover {
+    font-weight: 900;
+  }
+}
+
+.aboutText {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+.contactText {
+   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .frame {
-  border: 1px solid black;
-
+  border: 3px solid blueviolet;
+  //box-shadow: 5px 5px black;
+  box-shadow: -5px -5px black;
 }
 
-.box-1-8 {
-  width: 65vw;
+.box-1-9 {
+  width: 62vw;
   height: 90vh;
 }
+
+.box-8-9 {
+  z-index: 0;
+}
+
+
+
+
+
+
+

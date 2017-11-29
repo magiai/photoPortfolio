@@ -11,15 +11,28 @@
 <header class="header">
     <div class="container">
 
+        <div class="aboutBox">
+            <p class="aboutText">A</p>
+            <p class="aboutText">B</p>
+            <p class="aboutText">O</p>
+            <p class="aboutText">U</p>
+            <p class="aboutText">T</p>
+        </div>
 
-        <div class="frame box-1-8 first">
-            <div class="frame box-2-8 second">
-                <div class="frame box-3-8 third">
-                    <div class="frame box-4-8 fourth">
-                        <div class="frame box-5-8 fifth">
-                            <div class="frame box-6-8 sixth">
-                                <div class="frame box-7-8 seventh">
-                                    <div class="box-8-8 eighth">
+
+        <div class="frame box-1-9 first">
+           
+
+            <div class="frame box-2-9 second">
+                <div class="frame box-3-9 third">
+                    <div class="frame box-4-9 fourth">
+                        <div class="frame box-5-9 fifth">
+                            <div class="frame box-6-9 sixth">
+                                <div class="frame box-7-9 seventh">
+                                    <div class="frame box-8-9 eigth">
+                                        <div class="box-9-9 nine">
+
+                                        </div>
 
                                     </div>
                                 </div>
@@ -30,7 +43,15 @@
             </div>
         </div>
 
-
+        <div class="contactBox">
+            <p class="contactText">C</p>
+            <p class="contactText">O</p>
+            <p class="contactText">N</p>
+            <p class="contactText">T</p>
+            <p class="contactText">A</p>
+            <p class="contactText">C</p>
+            <p class="contactText">T</p>
+        </div>
 
 
 
