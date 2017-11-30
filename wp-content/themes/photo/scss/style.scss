@@ -8,14 +8,11 @@
 }
 
 body {
-  background-color: darkblue;
-  .customize-support {
-    background-color: darkblue;
-  }
+  background-color: black;
 }
 
 header {
-  background-color: darkblue;
+  background-color: black;
 }
 
 .container {
@@ -24,7 +21,63 @@ header {
   flex-direction: row;
   justify-content: center;
   .frame:hover {
-    box-shadow: -5px -5px red;
+    box-shadow: -3px -3px black;
+  }
+  .nine {
+    opacity: 0;
+  }
+  .nine:hover {
+    opacity: 1;
+    background-image: url("../images/gallery1/3.jpg");
+  }
+  .eight {
+    opacity: 0;
+  }
+  .eight:hover {
+    opacity: 1;
+    background-image: url("../images/gallery2/5.jpg");
+  }
+  .seven {
+    opacity: 0;
+  }
+  .seven:hover {
+    opacity: 1;
+    background-image: url("../images/gallery3/1.jpg");
+  }
+  .six {
+    opacity: 0;
+  }
+  .six:hover {
+    opacity: 1;
+    background-image: url("../images/gallery4/3.jpg");
+  }
+  .five {
+    opacity: 0;
+  }
+  .five:hover {
+    opacity: 1;
+    background-image: url("../images/gallery5/2.jpg");
+  }
+  .four {
+    opacity: 0;
+  }
+  .four:hover {
+    opacity: 1;
+    background-image: url("../images/gallery6/2.jpg");
+  }
+  .three {
+    opacity: 0;
+  }
+  .three:hover {
+    opacity: 1;
+    background-image: url("../images/gallery7/3.jpg");
+  }
+  .two {
+    opacity: 0;
+  }
+  .two:hover {
+    opacity: 1;
+    background-image: url("../images/gallery8/3.jpg");
   }
 }
 
@@ -33,7 +86,7 @@ header {
   margin-left: 7vw;
   p:hover {
     font-weight: 900;
-    color: red;
+    color: white;
   }
 }
 
@@ -43,7 +96,7 @@ header {
   margin-left: 2vw;
   p:hover {
     font-weight: 900;
-    color: red;
+    color: white;
   }
 }
 
@@ -51,7 +104,7 @@ header {
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  color: blueviolet;
+  color: black;
 
 }
 .contactText {
@@ -59,11 +112,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: blueviolet;
+  color: black;
 }
 
 .frame {
-  border: 3px solid blueviolet;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box-9-9 {

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+//------------------
+//grid
+//------------------
+$divSize: 9;
+$gutter: 1px;
+
+.container {
+    margin: $gutter / 2;
+}
+//.row {
+//    [class*="col-"] {
+//        margin-bottom: $gutter * 2;
+//    }
+//}
+//@media only screen and (min-width:768px) {
+//
+////.row {
+////    margin-bottom: $gutter*2;
+////    margin-left: -$gutter;
+////    margin-right: -$gutter;
+////
+////    &:after {
+////        content: "";
+////        display: table;
+////        clear: both;
+//    }
+    @for $i from 1 through $divSize {
+        .box-#{$i}-#{$divSize} {
+            width: ((70 / $divSize * $i)-(1*$i)) * 1vw;
+            height: ((90 / $divSize * $i)-(0.7*$i)) * 1vh;
+        }
+    }
+
+@for $i from 1 through $divSize {
+    .box-#{$i}-#{$divSize} {
+        z-index: $i*(-1);
+        }
+    }
+
+//@for $i from 1 through $divSize {
+//    .box-#{$i}-$divSize {
+//    width: auto;
+//    height: 100vh;
+//    background-image: url("../images/gallery#{$i}/#{$i}.jpg");
+//    background-position: center;
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//}
+//}
+
+//
+//@for $i from 2 to $divSize {
+//    @if($i==2 && $i==6){
+//    .box-#{$i}-#{$divSize} {
+//        display: flex;
+//        justify-content: center;
+//        align-items: flex-start;
+//    }
+//}
+//}
+
+
+
+
+
+
+
+    [class*="box-"] {
+        //^ - zaczyna się od
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: $gutter;
+        padding-right: $gutter;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    //.box-2-8 {
+    //    width: 60vw;
+    //    height: 85vh;
+    //}
+
