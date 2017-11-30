@@ -8,11 +8,11 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 header {
-  background-color: black;
+  background-color: white;
 
 }
 
@@ -24,8 +24,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   .frame:hover {
-
-    box-shadow: -70px -70px black;
+    box-shadow: -70px -70px white;
   }
 
   .nine {
@@ -116,7 +115,7 @@ header {
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
 
 }
 .contactText {
@@ -125,7 +124,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .frame {
@@ -157,7 +156,7 @@ header {
   margin-bottom: 1vh;
   font-size: 14px;
   letter-spacing: 3px;
-  color: white;
+  color: black;
 }
 
 
