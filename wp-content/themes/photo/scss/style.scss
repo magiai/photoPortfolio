@@ -8,15 +8,23 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: darkblue;
+  .customize-support {
+    background-color: darkblue;
+  }
+}
+
+header {
+  background-color: darkblue;
 }
 
 .container {
   margin-top: 5vh;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   .frame:hover {
-    box-shadow: -5px -5px black;
+    box-shadow: -5px -5px red;
   }
 }
 
@@ -25,14 +33,17 @@ body {
   margin-left: 7vw;
   p:hover {
     font-weight: 900;
+    color: red;
   }
 }
 
 .contactBox {
   margin-top: 25vh;
-  margin-right: 8vw;
+  margin-right: 4vw;
+  margin-left: 2vw;
   p:hover {
     font-weight: 900;
+    color: red;
   }
 }
 
@@ -40,6 +51,7 @@ body {
   font-size: 30px;
   display: flex;
   flex-direction: column;
+  color: blueviolet;
 
 }
 .contactText {
@@ -47,25 +59,51 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: blueviolet;
 }
 
 .frame {
   border: 3px solid blueviolet;
-  //box-shadow: 5px 5px black;
-  //box-shadow: -5px -5px black;
 }
 
 .box-9-9 {
   width: 62vw;
   height: 90vh;
+  display: flex;
+  justify-content: center;
 }
 
-  .gallery1BG {
-    background-image: url("../images/gallery1/1.jpg");
-    background-size: contain;
-    height: 100%;
-    width: auto;
-  }
+  //.gallery1BG {
+  //  background-image: url("../images/gallery1/1.jpg");
+  //  background-size: contain;
+  //  height: inherit;
+  //  width: inherit;
+  //}
+
+
+//.two {
+//  div {
+//    opacity: 1;
+//    box-sizing: border-box;
+//    background-image: url("../images/gallery2/1.jpg");
+//    height: inherit;
+//    width: inherit;
+//
+//  }
+//}
+//
+//.nine {
+//
+//  &div:hover {
+//    box-sizing: border-box;
+//    background-image: url("../images/gallery8/1.jpg");
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    height: inherit;
+//    width: inherit;
+//
+//  }
+//}
 
 
 

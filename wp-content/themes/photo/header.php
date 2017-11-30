@@ -19,11 +19,20 @@
             <p class="aboutText">T</p>
         </div>
 
+        <div class="contactBox">
+            <p class="contactText">C</p>
+            <p class="contactText">O</p>
+            <p class="contactText">N</p>
+            <p class="contactText">T</p>
+            <p class="contactText">A</p>
+            <p class="contactText">C</p>
+            <p class="contactText">T</p>
+        </div>
 
 
 
-            <div class="frame box-9-9 nine gallery1BG">
 
+            <div class="frame box-9-9 nine">
 
                 <div class="frame box-8-9 eight">
                     <div class="frame box-7-9 seven">
@@ -41,19 +50,9 @@
                     </div>
                 </div>
 
-
+                </div>
             </div>
 
-
-        <div class="contactBox">
-            <p class="contactText">C</p>
-            <p class="contactText">O</p>
-            <p class="contactText">N</p>
-            <p class="contactText">T</p>
-            <p class="contactText">A</p>
-            <p class="contactText">C</p>
-            <p class="contactText">T</p>
-        </div>
 
 
 
