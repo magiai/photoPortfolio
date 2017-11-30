@@ -30,8 +30,7 @@
         </div>
 
 
-
-
+        <div class = "picturesContainer">
             <div class="frame box-9-9 nine">
 <!--                <a class="button" href="--><?php //echo get_category_link(1); ?><!--" target="_blank">I</a>-->
 
@@ -53,8 +52,7 @@
 
                 </div>
             </div>
-
-
+    </div>
 
 
 
