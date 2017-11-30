@@ -24,8 +24,10 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   .frame:hover {
-    box-shadow: 2px 2px 50px 1px black;
+
+    box-shadow: -70px -70px black;
   }
+
   .nine {
     opacity: 0;
   }

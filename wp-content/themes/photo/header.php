@@ -31,16 +31,16 @@
 
 
         <div class = "picturesContainer">
-            <div class="frame box-9-9 nine">
+            <div class="frame shadow box-9-9 nine">
 <!--                <a class="button" href="--><?php //echo get_category_link(1); ?><!--" target="_blank">I</a>-->
 
-                <div class="frame box-8-9 eight">
-                    <div class="frame box-7-9 seven">
-                        <div class="frame box-6-9 six">
-                            <div class="frame box-5-9 five">
-                                <div class="frame box-4-9 four">
-                                    <div class="frame box-3-9 three">
-                                        <div class="frame box-2-9 two">
+                <div class="frame shadow box-8-9 eight">
+                    <div class="frame shadow box-7-9 seven">
+                        <div class="frame shadow box-6-9 six">
+                            <div class="frame shadow box-5-9 five">
+                                <div class="frame shadow box-4-9 four">
+                                    <div class="frame shadow box-3-9 three">
+                                        <div class="frame shadow box-2-9 two">
 
                                         </div>
                                     </div>
