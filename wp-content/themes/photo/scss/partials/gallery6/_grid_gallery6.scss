@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+//------------------
+//grid
+//------------------
+$numberOfpictures: 6;
+$gutter: 1px;
+
+.container {
+    margin: $gutter / 2;
+}
+
+    @for $i from 1 through $numberOfpictures {
+        .picture-#{$i}-#{$numberOfpictures} {
+            width: (70 * $i * 0.1) * 1vw;
+            height: (90 * $i * 0.1) * 1vh;
+        }
+    }
+//
+//@for $i from 1 through $numberOfpictures {
+//    .picture-#{$i}-#{$numberOfpictures} {
+//        z-index: $i*(-1);
+//        }
+//    }
+
+
+
+    [class*="picture-"] {
+        //^ - zaczyna się od
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+
