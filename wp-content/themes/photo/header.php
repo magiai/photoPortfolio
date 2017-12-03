@@ -32,8 +32,6 @@
 
         <div class = "picturesContainer">
             <div class="frame shadow box-9-9 nine">
-<!--                <a class="button" href="--><?php //echo get_category_link(1); ?><!--" target="_blank">I</a>-->
-
                 <div class="frame shadow box-8-9 eight">
                     <div class="frame shadow box-7-9 seven">
                         <div class="frame shadow box-6-9 six">
@@ -52,6 +50,13 @@
 
                 </div>
             </div>
+
+
+<!--        <div class="image image1gallery1"></div>-->
+<!--        <div class="image image2gallery1"></div>-->
+<!--        <div class="image image3gallery1"></div>-->
+
+
     </div>
 
 

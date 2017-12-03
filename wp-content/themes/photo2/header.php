@@ -11,32 +11,24 @@
     <div class="container">
 
 
-        <div class="frame box-9-9 nine">
+        <div class="picture-6-6 picture decagon">
+
+            <div class="picture-5-6 picture nonagon">
+
+                <div class="picture-4-6 picture octagon">
+
+                    <div class="picture-3-6 picture heptagon">
+
+                        <div class="picture-2-6 picture hexagon">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-            <div class="frame box-8-9 eight">
-            </div>
-
-                <div class="frame box-7-9 seven">
-                </div>
-
-                    <div class="frame box-6-9 six">
-                    </div>
-
-                        <div class="frame box-5-9 five">
-                        </div>
-
-                            <div class="frame box-4-9 four">
-                            </div>
-
-                                <div class="frame box-3-9 three">
-                                </div>
-
-                                    <div class="frame box-2-9 two">
-                                    </div>
-
-
-
-
     </div>
+
+
 </header>

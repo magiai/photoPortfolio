@@ -1,4 +1,7 @@
 @import "grid";
+@import "partials/_header.scss";
+@import "partials/_footer.scss";
+@import "partials/_single.scss";
 
 *{
   margin: 0px auto;
@@ -11,153 +14,8 @@ body {
   background-color: white;
 }
 
-header {
-  background-color: white;
 
-}
 
-.container {
-  width: 100%;
-  hight: auto;
-  margin-top: 2vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  .frame:hover {
-    box-shadow: -70px -70px white;
-  }
-
-  .nine {
-    opacity: 0;
-  }
-  .nine:hover {
-    opacity: 1;
-    background-image: url("../images/gallery1/2.jpg");
-  }
-  .eight {
-    opacity: 0;
-  }
-  .eight:hover {
-    opacity: 1;
-    background-image: url("../images/gallery2/5.jpg");
-  }
-  .seven {
-    opacity: 0;
-  }
-  .seven:hover {
-    opacity: 1;
-    background-image: url("../images/gallery3/1.jpg");
-  }
-  .six {
-    opacity: 0;
-  }
-  .six:hover {
-    opacity: 1;
-    background-image: url("../images/gallery4/5.jpg");
-  }
-  .five {
-    opacity: 0;
-  }
-  .five:hover {
-    opacity: 1;
-    background-image: url("../images/gallery5/4.jpg");
-  }
-  .four {
-    opacity: 0;
-  }
-  .four:hover {
-    opacity: 1;
-    background-image: url("../images/gallery6/2.jpg");
-  }
-  .three {
-    opacity: 0;
-  }
-  .three:hover {
-    opacity: 1;
-    background-image: url("../images/gallery7/3.jpg");
-  }
-  .two {
-    opacity: 0;
-  }
-  .two:hover {
-    opacity: 1;
-    background-image: url("../images/gallery8/3.jpg");
-  }
-}
-
-.picturesContainer {
-  width: 66vw;
-  margin-right: 10vw;
-}
-
-.aboutBox {
- margin-top: 30vh;
-  margin-left: 6vw;
-
-  p:hover {
-    font-weight: 900;
-    color: black;
-  }
-}
-
-.contactBox {
-  margin-top: 25vh;
-  margin-right: 4vw;
-  margin-left: 2vw;
-  color: white;
-  p:hover {
-    font-weight: 900;
-    color: black;
-  }
-}
-
-.aboutText {
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  color: black;
-
-}
-.contactText {
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  color: black;
-}
-
-.frame {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.box-9-9 {
-  width: 60vw;
-  height: 86vh;
-  display: flex;
-  justify-content: left;
-}
-
-.copyrightsBox {
-  margin-right: 5vw;
-  color: white;
-  p:hover {
-    font-weight: 900;
-    color: black;
-  }
-}
-
-.copyrightsText {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1vh;
-  font-size: 14px;
-  letter-spacing: 3px;
-  color: black;
-}
 
 
 
