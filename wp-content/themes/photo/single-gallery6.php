@@ -11,19 +11,13 @@
     <div class="containerGallery6">
 
 
-        <div class="picture-6-6 picture decagon">
+        <div class="picture-6-6 picture hexagon">
 
-            <div class="picture-5-6 picture nonagon">
+            <div class="picture-5-6 picture pentagon">
 
-                <div class="picture-4-6 picture octagon">
-
-                    <div class="picture-3-6 picture heptagon">
-
-                        <div class="picture-2-6 picture hexagon">
+                <div class="picture-4-6 picture square">
 
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

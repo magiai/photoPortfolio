@@ -26,19 +26,19 @@ body {
   //.picture:hover {
   //  box-shadow: -70px -70px white;
   //}
-  .decagon {
+  .hexagon {
     background-image: url("../images/gallery6/2.jpg");
 
   }
-  .decagon:hover {
+  .hexagon:hover {
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
   }
-  .nonagon {
+  .pentagon {
     opacity: 0;
   }
-  .nonagon:hover {
+  .pentagon:hover {
     opacity: 1;
     background-image: url("../images/gallery6/1.jpg");
     -ms-transform: rotate(180deg); /* IE 9 */
@@ -48,10 +48,10 @@ body {
     width: 45vw; //38
 
   }
-  .octagon {
+  .square {
     opacity: 0;
   }
-  .octagon:hover {
+  .square:hover {
     opacity: 1;
 
     background-image: url("../images/gallery6/3.jpg");
