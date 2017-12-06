@@ -1,4 +1,4 @@
-#? Photographer Portfolio
+## Photographer Portfolio
 
 Photography portfolio with one of my projects.
 
