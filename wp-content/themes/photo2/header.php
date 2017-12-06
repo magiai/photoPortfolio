@@ -11,16 +11,22 @@
     <div class="containerGallery6">
 
 
-        <div class="picture-6-6 picture hexagon">
-
-            <div class="picture-5-6 picture pentagon">
-
-                <div class="picture-4-6 picture square">
-
-
-                </div>
-            </div>
+        <div class="picture3-6-6 picture hexagon3">
         </div>
+
+            <div class="picture3-5-6 invisible picture pentagon3">
+            </div>
+
+                <div class="picture3-4-6 invisible picture square3">
+                </div>
+
+                    <div class="picture3-3-6 invisible picture triangle3">
+
+                    <div class="picture3-2-6 invisible picture line3">
+                    </div>
+
+
+
 
     </div>
 
