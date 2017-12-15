@@ -29,34 +29,41 @@
         <div class="row mainWall">
             <div class="rowContainer rC2">
 
-            <div class="col-4-14">
-                <div class="element eC2 el4 wall" id="leftSide"></div>
-            </div>
+                <div class="col-4-14">
+                    <div class="element eC2 el4 wall" id="leftSide"></div>
+                </div>
+
+
 
                 <div class="col-2-14">
-                    <div class="element eC2 el2 galleryElement">
-                    <div class="gallery gallery-1">
+                    <div class="element eC2 el2">
+                    <div class="gallery">
                         <div class="picture picture-1"></div>
+                        <div class="picture picture-1-2"></div>
                     </div>
                 </div>
                 </div>
-            <div class="col-2-14">
-                <div class="element eC2 el2 galleryElement">
-                    <div class="gallery gallery-1">
-                        <div class="picture picture-2"></div>
+                <div class="col-2-14">
+                    <div class="element eC2 el2">
+                        <div class="gallery">
+                            <div class="picture picture-2"></div>
+                            <div class="picture picture-2-2"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-2-14">
-                <div class="element eC2 el2 galleryElement">
-                    <div class="gallery gallery-1">
-                        <div class="picture picture-3"></div>
+                <div class="col-2-14">
+                    <div class="element eC2 el2">
+                        <div class="gallery">
+                            <div class="picture picture-3"></div>
+                            <div class="picture picture-3-2"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
-            <div class="col-4-14">
+
+
+            <div class="col-4-14 ">
                 <div class="element eC2 el4 wall" id="rightSide"></div>
             </div>
             </div>
