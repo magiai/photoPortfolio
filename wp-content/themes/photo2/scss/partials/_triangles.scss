@@ -1,0 +1,26 @@
+#triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 22vh solid silver;
+  border-right: 28.8vw solid transparent;
+}
+
+#triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 22vh solid silver;
+  border-left: 28.8vw solid transparent;
+}
+
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 32vh solid silver;
+  border-left: 28.8vw solid transparent;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 32vh solid silver;
+  border-right: 28.8vw solid transparent;
+}

@@ -1,0 +1,46 @@
+//.galleryElement {
+//  border: 1px solid black;
+//}
+.picture {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery{
+  display: flex;
+  margin-top: 30%;
+  height: 40%;
+  width: 55%;
+  border: 1px black solid;
+}
+
+.picture-1 {
+  background-image: url("../images/gallery1/1.jpg");
+}
+.picture-2 {
+  background-image: url("../images/gallery1/2.jpg");
+}
+.picture-3 {
+  background-image: url("../images/gallery1/3.jpg");
+}
+
+//@for $i from 1 through 8 {
+//  .gallery-#{$i} {
+//    width: 200px;
+//    height: 325px;
+//    background-image: url("../images/gallery#{$i}/#{$i}.jpg");
+//    .description_background, .description_content {
+//      display: none;
+//    }
+//  }
+//  .gallery_content_row_image-#{$i}:hover {
+//    width: 290px;
+//    height: 290px;
+//    display: flex;
+//    justify-content: center;
+//    align-items: flex-end;
+//    cursor: pointer;
+//  }
+//}

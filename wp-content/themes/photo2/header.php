@@ -13,9 +13,15 @@
         <div class="row">
             <div class="rowContainer rC1" id="topGrad">
 
-                <div class="col-4-14"><div class="element eC1 el4" id="triangle-bottomleft"></div></div>
-            <div class="col-6-14"><div class="element eC1 el6"></div></div>
-            <div class="col-4-14"><div class="element eC1 el4" id ="triangle-bottomright"></div></div>
+                <div class="col-4-14">
+                    <div class="element eC1 el4" id="triangle-bottomleft"></div>
+                </div>
+            <div class="col-6-14">
+                <div class="element eC1 el6"></div>
+            </div>
+            <div class="col-4-14">
+                <div class="element eC1 el4" id ="triangle-bottomright"></div>
+            </div>
             </div>
 
         </div>
@@ -23,30 +29,52 @@
         <div class="row mainWall">
             <div class="rowContainer rC2">
 
-            <div class="col-4-14"><div class="element eC2 el4 wall" id="leftSide"></div></div>
+            <div class="col-4-14">
+                <div class="element eC2 el4 wall" id="leftSide"></div>
+            </div>
 
-                <div class="col-2-14"><div class="element eC2 el2 galleryElement">
-                    <div class="picture gallery"></div>
-                </div></div>
-            <div class="col-2-14"><div class="element eC2 el2 galleryElement">
-                    <div class="picture gallery"></div>
-                </div></div>
-            <div class="col-2-14"><div class="element eC2 el2 galleryElement">
-                    <div class="picture gallery"></div>
-                </div></div>
+                <div class="col-2-14">
+                    <div class="element eC2 el2 galleryElement">
+                    <div class="gallery gallery-1">
+                        <div class="picture picture-1"></div>
+                    </div>
+                </div>
+                </div>
+            <div class="col-2-14">
+                <div class="element eC2 el2 galleryElement">
+                    <div class="gallery gallery-1">
+                        <div class="picture picture-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2-14">
+                <div class="element eC2 el2 galleryElement">
+                    <div class="gallery gallery-1">
+                        <div class="picture picture-3"></div>
+                    </div>
+                </div>
+            </div>
 
 
-            <div class="col-4-14"><div class="element eC2 el4 wall" id="rightSide"></div></div>
+            <div class="col-4-14">
+                <div class="element eC2 el4 wall" id="rightSide"></div>
+            </div>
             </div>
 
         </div>
 
         <div class="row">
-            <div class="rowContainer rC3" id="buttonGrad">
+            <div class="rowContainer rC3" id="bottonGrad">
 
-            <div class="col-4-14"><div class="element eC3 el4" id="triangle-topleft"></div></div>
-            <div class="col-6-14"><div class="element eC3 el6"></div></div>
-            <div class="col-4-14"><div class="element eC3 el4" id="triangle-topright"></div></div>
+            <div class="col-4-14">
+                <div class="element eC3 el4" id="triangle-topleft"></div>
+            </div>
+            <div class="col-6-14">
+                <div class="element eC3 el6"></div>
+            </div>
+            <div class="col-4-14">
+                <div class="element eC3 el4" id="triangle-topright"></div>
+            </div>
 
             </div>
         </div><br>

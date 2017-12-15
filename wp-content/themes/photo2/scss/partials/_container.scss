@@ -1,6 +1,68 @@
+.containerGallery {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
 
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+  .rC1{
+    height: 22vh;
+  }
+  .rC2{
+    height: 44vh;
+    background-color: white;
+  }
+  .rC3{
+    height: 32vh;
+  }
+
+  .eC1{
+    height: 22vh;
+  }
+  .eC2{
+    height: 44vh;
+  }
+  .eC3{
+    height: 32vh;
+  }
+  .el2{
+    width: 14vw;
+  }
+  .el4{
+    width: 28.8vw;
+  }
+  .el6{
+    width: 43vw;
+  }
+}
+
+div.element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 0px;
+  margin:0px;
+}
 
 .wall {
-  background-color: grey;
+  background-color: silver;
 }

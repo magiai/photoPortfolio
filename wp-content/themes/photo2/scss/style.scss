@@ -1,5 +1,10 @@
 @import "grid";
 @import "mixins";
+@import "partials/_triangles.scss";
+@import "partials/container";
+@import "partials/_gradients.scss";
+@import "partials/_gallery.scss";
+
 
 * {
   margin: 0px auto;
@@ -7,141 +12,12 @@
   box-sizing: border-box;
 }
 
-
-
 body {
-  background-color: white;
-}
-
-//html {
-//  margin-top: 0px !important;
-//}
-.containerGallery {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-
-  .rC1{
-    height: 22vh;
-  }
-  .rC2{
-    height: 44vh;
-    background-color: white;
-  }
-  .rC3{
-    height: 32vh;
-  }
-
-  .eC1{
-    height: 22vh;
-  }
-  .eC2{
-    height: 44vh;
-  }
-  .eC3{
-    height: 32vh;
-  }
-  .el2{
-    width: 14vw;
-  }
-  .el4{
-    width: 28.8vw;
-  }
-  .el6{
-    width: 43vw;
-  }
-}
-
-div.element {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  box-sizing: border-box;
-  padding: 0px;
-  margin:0px;
-  }
-
-#triangle-bottomleft {
-  width: 0;
-  height: 0;
-  border-bottom: 22vh solid grey;
-  border-right: 28.8vw solid transparent;
-}
-
-#triangle-bottomright {
-  width: 0;
-  height: 0;
-  border-bottom: 22vh solid grey;
-  border-left: 28.8vw solid transparent;
-}
-
-#triangle-topright {
-  width: 0;
-  height: 0;
-  border-top: 32vh solid grey;
-  border-left: 28.8vw solid transparent;
-}
-#triangle-topleft {
-  width: 0;
-  height: 0;
-  border-top: 32vh solid grey;
-  border-right: 28.8vw solid transparent;
-}
-
-.wall {
-  background-color: grey;
-}
-//#leftSide {
-//  background: linear-gradient(to right, grey, white);
-//}
-//#rightSide {
-//  background: linear-gradient(to left, grey, white);
-//}
-//#topGrad {
-//  background: linear-gradient(grey, white);
-//}
-//#buttonGrad {
-//  background: linear-gradient(white, grey);
-//}
-
-.button {
-  border: 0px;
-  box-shadow: 0px;
-}
-.galleryElement {
-  border: 1px solid black;
+  background-color: silver;
 }
 
 
-  .picture {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .gallery{
-    display: flex;
-    margin-top: 30%;
-    height: 40%;
-    width: 55%;
-    border: 1px black solid;
-  }
+
+
+
 
