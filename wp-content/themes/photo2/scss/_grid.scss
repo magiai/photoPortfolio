@@ -4,36 +4,55 @@
 //------------------
 //grid
 //------------------
-$numberOfpictures: 6;
+//$numberOfpictures: 6;
+$columnCount: 14;
 $gutter: 1px;
 
-.container {
-    margin: $gutter / 2;
-}
 
-    @for $i from 1 through $numberOfpictures {
-        .picture3-#{$i}-#{$numberOfpictures} {
-            width: (70 * $i * 0.1) * 1vw;
-            height: (90 * $i * 0.1) * 1vh;
+//.container {
+//    margin: $gutter / 2;
+//}
+//.row {
+//    [class*="col-"] {
+//        margin-bottom: $gutter * 2;
+//    }
+//}
+
+@media only screen and (min-width:768px) {
+
+    .row {
+        margin: 0px;
+        padding: 0px;
+
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+            padding: 0px;
+        }
+
+        //@for $i from 1 through $numberOfpictures {
+        //    .picture3-#{$i}-#{$numberOfpictures} {
+        //        width: (70 * $i * 0.1) * 1vw;
+        //        height: (90 * $i * 0.1) * 1vh;
+        //    }
+        //}
+
+        @for $i from 1 through $columnCount {
+            .col-#{$i}-#{$columnCount} {
+                width: (100 / $columnCount * $i) * 1vw;
+            }
+        }
+
+
+        [class*="col-"] {
+            //^ - zaczyna się od
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
         }
     }
-//
-//@for $i from 1 through $numberOfpictures {
-//    .picture-#{$i}-#{$numberOfpictures} {
-//        z-index: $i*(-1);
-//        }
-//    }
-
-
-
-    [class*="picture3-"] {
-        //^ - zaczyna się od
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 4vh;
-        margin-bottom: 0px;
-        box-sizing: border-box;
-    }
+}
 
 

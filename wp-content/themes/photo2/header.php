@@ -8,22 +8,51 @@
 </head>
 <body>
 <header class="header">
-    <div class="containerGallery6">
+    <div class="containerGallery">
 
+        <div class="row">
+            <div class="rowContainer rC1">
 
-        <div class="picture3-6-6 picture hexagon3">
-        </div>
-
-            <div class="picture3-5-6 invisible picture pentagon3">
+                <div class="col-4-14"><div class="element eC1 el4" id="triangle-bottomleft"></div></div>
+            <div class="col-6-14"><div class="element eC1 el6"></div></div>
+            <div class="col-4-14"><div class="element eC1 el4" id ="triangle-bottomright"></div></div>
             </div>
 
-                <div class="picture3-4-6 invisible picture square3">
-                </div>
+        </div><br>
 
-                    <div class="picture3-3-6 invisible picture triangle3">
+        <div class="row mainWall">
+            <div class="rowContainer rC2">
 
-                    <div class="picture3-2-6 invisible picture line3">
-                    </div>
+            <div class="col-2-14"><div class="element eC2 el2 wall"></div></div>
+            <div class="col-2-14"><div class="element eC2 el2 wall"></div></div>
+            <div class="col-2-14"><div class="element eC2 el2">
+                    <div class="picture gallery"></div>
+                </div></div>
+            <div class="col-2-14"><div class="element eC2 el2">
+                    <div class="picture gallery"></div>
+                </div></div>
+            <div class="col-2-14"><div class="element eC2 el2">
+                    <div class="picture gallery"></div>
+                </div></div>
+            <div class="col-2-14"><div class="element eC2 el2 wall"></div></div>
+            <div class="col-2-14"><div class="element eC2 el2 wall"></div></div>
+            </div>
+
+        </div><br>
+
+        <div class="row">
+            <div class="rowContainer rC3">
+
+            <div class="col-4-14"><div class="element eC3 el4" id="triangle-topleft"></div></div>
+            <div class="col-6-14"><div class="element eC3 el6"></div></div>
+            <div class="col-4-14"><div class="element eC3 el4" id="triangle-topright"></div></div>
+
+            </div>
+        </div><br>
+
+
+
+
 
 
 
