@@ -1,4 +1,5 @@
 @import "grid";
+@import "mixins";
 
 * {
   margin: 0px auto;
@@ -33,36 +34,36 @@ body {
   flex-direction: row;
   justify-content: center;
   justify-items: center;
-  align-items: flex-start;
+
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 
   .rC1{
-    height: 24vh;
+    height: 22vh;
   }
   .rC2{
     height: 44vh;
-    background-color: grey;
+    background-color: white;
   }
   .rC3{
-    height: 30vh;
+    height: 32vh;
   }
 
   .eC1{
-    height: 24vh;
+    height: 22vh;
   }
   .eC2{
     height: 44vh;
   }
   .eC3{
-    height: 30vh;
+    height: 32vh;
   }
   .el2{
     width: 14vw;
   }
   .el4{
-    width: 28.5vw;
+    width: 28.8vw;
   }
   .el6{
     width: 43vw;
@@ -74,7 +75,6 @@ div.element {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  border: 1px solid black;
   box-sizing: border-box;
   padding: 0px;
   margin:0px;
@@ -83,32 +83,52 @@ div.element {
 #triangle-bottomleft {
   width: 0;
   height: 0;
-  border-bottom: 24vh solid grey;
-  border-right: 28.5vw solid transparent;
+  border-bottom: 22vh solid grey;
+  border-right: 28.8vw solid transparent;
 }
 
 #triangle-bottomright {
   width: 0;
   height: 0;
-  border-bottom: 24vh solid grey;
-  border-left: 28.5vw solid transparent;
+  border-bottom: 22vh solid grey;
+  border-left: 28.8vw solid transparent;
 }
 
 #triangle-topright {
   width: 0;
   height: 0;
-  border-top: 30vh solid grey;
-  border-left: 28.5vw solid transparent;
+  border-top: 32vh solid grey;
+  border-left: 28.8vw solid transparent;
 }
 #triangle-topleft {
   width: 0;
   height: 0;
-  border-top: 30vh solid grey;
-  border-right: 28.5vw solid transparent;
+  border-top: 32vh solid grey;
+  border-right: 28.8vw solid transparent;
 }
 
 .wall {
   background-color: grey;
+}
+//#leftSide {
+//  background: linear-gradient(to right, grey, white);
+//}
+//#rightSide {
+//  background: linear-gradient(to left, grey, white);
+//}
+//#topGrad {
+//  background: linear-gradient(grey, white);
+//}
+//#buttonGrad {
+//  background: linear-gradient(white, grey);
+//}
+
+.button {
+  border: 0px;
+  box-shadow: 0px;
+}
+.galleryElement {
+  border: 1px solid black;
 }
 
 
@@ -124,3 +144,4 @@ div.element {
     width: 55%;
     border: 1px black solid;
   }
+
