@@ -4,10 +4,10 @@
 }
 .gallery{
   display: flex;
-  margin-top: 30%;
-  height: 40%;
+  margin-top: 40%;
+  height: 36%;
   width: 55%;
-  border: 1px black solid;
+  //border: 1px black solid;
 }
 
 .picture {
@@ -17,9 +17,14 @@
   background-size: cover;
   background-position: center;
 }
+.hidden-picture {
+  display: none;
+  width: 900px;
+  height: 600px;
+}
 
 
-.picture-1 {
+.picture-1, .hidden-picture{
   background-image: url("../images/gallery1/1.jpg");
 }
 .picture-2 {

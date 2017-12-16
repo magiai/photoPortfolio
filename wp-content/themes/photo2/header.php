@@ -38,7 +38,9 @@
                 <div class="col-2-14">
                     <div class="element eC2 el2">
                     <div class="gallery">
-                        <div class="picture picture-1"></div>
+                        <button class="picture picture-1">
+                        </button>
+                        <div class="hidden-picture"></div>
                         <div class="picture picture-1-2"></div>
                     </div>
                 </div>
